@@ -78,9 +78,16 @@ a:hover{
 }
 
 .nav__list--itemLOG:hover{
-	background-color: black ;
 	border-radius: 50%;
 }
+
+.nav__list--itemLOG:hover + .desplegableMenu__section{
+
+	position: absolute;
+	top: 75px;
+}
+
+
 
 .item__hiper--profile img{
 	width: 40px;
@@ -100,7 +107,7 @@ main{
 
 .desplegableMenu__section{
 	position: absolute;
-	top: 75px;
+	top: -5555px;
 	right: 25px;
 	width: 320px;
 	height: 450px;
